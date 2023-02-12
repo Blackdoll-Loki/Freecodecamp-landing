@@ -3,15 +3,23 @@
   padding: 0;
 }
 body {
-  padding: 1% 0 10%;
+  padding: 1% 0 5%;
+  background-color: rgb(255, 255, 255);
+}
+header {
+  position: sticky;
+  top: 1%;
 }
 header,
-main,
-footer {
+main {
   margin: 0 auto;
   padding: 0 5%;
 }
-nav {
+footer {
+  margin: 0 auto;
+  padding: 4rem 5% 0;
+}
+ul nav {
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -32,7 +40,8 @@ li {
 }
 a {
   text-decoration: none;
-  color: rgb(56, 38, 3);
+  color: rgb(124 83 3);
+  font-size: 18px;
 }
 
 form {
@@ -48,6 +57,8 @@ input {
   width: 30%;
   font-size: 16px;
   padding: 3px;
+  border-radius: 5px;
+  border: 1px solid rgb(124 83 3);
 }
 
 h1 {
@@ -57,10 +68,11 @@ h1 {
   font-style: italic;
   font-size: 48px;
   line-height: 1.5;
+  color: rgb(175, 70, 35);
 }
 h2 {
   font-size: 1.5rem;
-  color: rgb(56, 38, 3);
+  color: rgb(124 83 3);
   line-height: 1.5;
   font-weight: 500;
 }
@@ -70,6 +82,7 @@ h3 {
   line-height: 1.5;
   margin-bottom: 15px;
   font-style: italic;
+  color: rgb(124 83 3);
 }
 h4 {
   font-size: 18px;
@@ -78,14 +91,14 @@ h4 {
   margin-bottom: 15px;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 video {
   display: block;
   height: 70vh;
   width: auto;
-  margin: 0 auto 3rem;
+  margin: 0 auto 5rem;
 }
 #features {
   width: 70%;
@@ -105,7 +118,7 @@ video {
 .fontawesome-icon {
   font-size: 16px;
   font-size: 5rem;
-  color: rgb(56, 38, 3);
+  color: rgb(124 83 3);
 }
 .text {
   display: flex;
@@ -120,7 +133,7 @@ video {
 
 .card {
   padding: 15px;
-  border: 1px solid rgb(77, 52, 3);
+  border: 1px solid rgb(124 83 3);
   border-radius: 4px;
   box-shadow: 0px 0px 2px 2px rgb(251, 235, 208);
   text-align: center;
@@ -137,4 +150,24 @@ video {
   font-weight: 600;
   line-height: 1.5;
   font-style: italic;
+}
+.footer-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.footer-paragraph {
+  text-align: right;
+}
+.submit {
+  height: 36px;
+  background-color: bisque;
+  color: rgb(38 150 165);
+  font-size: 18px;
+  line-height: 1.5;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
