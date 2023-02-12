@@ -17,8 +17,8 @@
         <img src="./img/Violin_clip_art.svg" alt="logo" id="header-img" />
         <ul>
           <li><a href="#features" class="nav-link">Features</a></li>
-          <li><a href="" class="nav-link">How it works</a></li>
-          <li><a href="" class="nav-link">Pricing</a></li>
+          <li><a href="#video" class="nav-link">How it works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
         </ul>
       </nav>
     </header>
@@ -29,10 +29,15 @@
         class="email-block"
         id="form"
       >
-        <input type="email" id="email" placeholder="Enter your email adress" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email adress"
+        />
         <input type="submit" id="submit" value="Get started" class="submit" />
       </form>
-      <section id="features">
+      <section id="features" class="block">
         <div class="feature">
           <div class="icon-container">
             <i class="fa-brands fa-canadian-maple-leaf fontawesome-icon"></i>
@@ -70,10 +75,12 @@
           </div>
         </div>
       </section>
-      <video controls>
-        <source src="./video/pexels-c-technical-7095856.mp4" />
-      </video>
-      <section class="cards-block">
+      <video
+        id="video"
+        src="./video/pexels-c-technical-7095856.mp4"
+        controls
+      ></video>
+      <section class="cards-block" id="pricing">
         <div class="card">
           <h3>Violin 1/4 size</h3>
           <h4>150$</h4>
